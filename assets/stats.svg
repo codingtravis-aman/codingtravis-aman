@@ -11,29 +11,50 @@
 <text x="40" y="40" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="14" letter-spacing="3" fill="#22D3EE">GITHUB // LIVE SNAPSHOT</text>
 <circle cx="330" cy="35" r="4" fill="#34D399"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
 <text x="960" y="40" text-anchor="end" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="14" fill="#A5F3FC">@codingtravis-aman</text>
-<g><rect x="40" y="60" width="215" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
-<text x="147" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
-<text x="147" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">PUBLIC REPOS</text>
-<rect x="40" y="60" width="215" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></rect>
+<g><rect x="40" y="60" width="172" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
+<text x="126" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">61</text>
+<text x="126" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" letter-spacing="2" fill="#94A3B8">TOTAL REPOS</text>
+<rect x="40" y="60" width="172" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></rect>
 <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.0s" fill="freeze"/></g>
-<g><rect x="275" y="60" width="215" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
-<text x="382" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
-<text x="382" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">STARS EARNED</text>
-<rect x="275" y="60" width="215" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></rect>
+<g><rect x="227" y="60" width="172" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
+<text x="313" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">25</text>
+<text x="313" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" letter-spacing="2" fill="#94A3B8">PUBLIC</text>
+<rect x="227" y="60" width="172" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></rect>
 <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.1s" fill="freeze"/></g>
-<g><rect x="510" y="60" width="215" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
-<text x="617" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
-<text x="617" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">FORKS</text>
-<rect x="510" y="60" width="215" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></rect>
+<g><rect x="414" y="60" width="172" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
+<text x="500" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">36</text>
+<text x="500" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" letter-spacing="2" fill="#94A3B8">PRIVATE</text>
+<rect x="414" y="60" width="172" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></rect>
 <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.3s" fill="freeze"/></g>
-<g><rect x="745" y="60" width="215" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
-<text x="852" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
-<text x="852" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">FOLLOWERS</text>
-<rect x="745" y="60" width="215" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+<g><rect x="601" y="60" width="172" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
+<text x="687" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
+<text x="687" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" letter-spacing="2" fill="#94A3B8">STARS</text>
+<rect x="601" y="60" width="172" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></rect>
 <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.4s" fill="freeze"/></g>
-<text x="40" y="176" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">TOP LANGUAGES (BY CODE)</text>
+<g><rect x="788" y="60" width="172" height="95" rx="14" fill="#111827" stroke="#1F2937"/>
+<text x="874" y="112" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#ac)">0</text>
+<text x="874" y="138" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" letter-spacing="2" fill="#94A3B8">FOLLOWERS</text>
+<rect x="788" y="60" width="172" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></rect>
+<animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.6s" fill="freeze"/></g>
+<text x="40" y="176" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="2" fill="#94A3B8">TOP LANGUAGES (BY CODE, PUBLIC + PRIVATE)</text>
 <rect x="40" y="185" width="920" height="14" rx="7" fill="#1F2937"/>
-<text x="40" y="238" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#94A3B8">No language data yet</text>
+<g clip-path="url(#bar)">
+<rect x="40.0" y="185" width="699.3" height="14" fill="#3178C6"><animate attributeName="width" from="0" to="699.3" dur="1.2s" fill="freeze"/></rect>
+<rect x="739.3" y="185" width="138.9" height="14" fill="#00B4AB"><animate attributeName="width" from="0" to="138.9" dur="1.2s" fill="freeze"/></rect>
+<rect x="878.1" y="185" width="61.0" height="14" fill="#F7DF1E"><animate attributeName="width" from="0" to="61.0" dur="1.2s" fill="freeze"/></rect>
+<rect x="939.1" y="185" width="15.5" height="14" fill="#4B8BBE"><animate attributeName="width" from="0" to="15.5" dur="1.2s" fill="freeze"/></rect>
+<rect x="954.6" y="185" width="4.1" height="14" fill="#336791"><animate attributeName="width" from="0" to="4.1" dur="1.2s" fill="freeze"/></rect>
+</g>
+<circle cx="45" cy="235" r="5" fill="#3178C6"/>
+<text x="56" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">TypeScript <tspan fill="#94A3B8">76.0%</tspan></text>
+<circle cx="229" cy="235" r="5" fill="#00B4AB"/>
+<text x="240" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">Dart <tspan fill="#94A3B8">15.1%</tspan></text>
+<circle cx="413" cy="235" r="5" fill="#F7DF1E"/>
+<text x="424" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">JavaScript <tspan fill="#94A3B8">6.6%</tspan></text>
+<circle cx="597" cy="235" r="5" fill="#4B8BBE"/>
+<text x="608" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">Python <tspan fill="#94A3B8">1.7%</tspan></text>
+<circle cx="781" cy="235" r="5" fill="#336791"/>
+<text x="792" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">PLpgSQL <tspan fill="#94A3B8">0.4%</tspan></text>
 <text x="960" y="274" text-anchor="end" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="11" fill="#6B7280">auto-updated daily by GitHub Actions · 2026-10-29 UTC</text>
 <g clip-path="url(#card)"><rect x="-200" y="0" width="200" height="290" fill="url(#sh)"><animate attributeName="x" values="-200;1000" dur="5s" repeatCount="indefinite"/></rect></g>
 </svg>
