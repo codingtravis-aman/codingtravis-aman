@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Thanks for visiting">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070A1F"/><stop offset=".55" stop-color="#1A1647"/><stop offset="1" stop-color="#06303F"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<filter id="g" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="4" result="b"><animate attributeName="stdDeviation" values="2;7;2" dur="3.5s" repeatCount="indefinite"/></feGaussianBlur><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="c"><rect width="1000" height="150" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1000" height="150" fill="url(#bg)"/>
+<text x="500" y="62" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" letter-spacing="8" fill="url(#ac)" filter="url(#g)">THANKS FOR VISITING</text>
+<text x="500" y="88" text-anchor="middle" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="13" letter-spacing="3" fill="#A5F3FC">keep building. keep shipping.</text>
+<path fill="#6D28D9" fill-opacity=".4" d="M0 112 Q125 92 250 112 T500 112 T750 112 T1000 112 T1250 112 T1500 112 T1750 112 T2000 112 V150 H0 Z"><animateTransform attributeName="transform" type="translate" values="0 0;-500 0" dur="8s" repeatCount="indefinite"/></path>
+<path fill="#06B6D4" fill-opacity=".3" d="M-400 124 Q-300 106 -200 124 T0 124 T200 124 T400 124 T600 124 T800 124 T1000 124 T1200 124 T1400 124 V150 H-400 Z"><animateTransform attributeName="transform" type="translate" values="0 0;400 0" dur="6s" repeatCount="indefinite"/></path>
+<path fill="#A78BFA" fill-opacity=".25" d="M0 134 Q150 120 300 134 T600 134 T900 134 T1200 134 T1500 134 T1800 134 V150 H0 Z"><animateTransform attributeName="transform" type="translate" values="0 0;-600 0" dur="11s" repeatCount="indefinite"/></path>
+</g>
+<rect x="1" y="1" width="998" height="148" rx="21" fill="none" stroke="#22D3EE" stroke-opacity=".35"/>
+</svg>

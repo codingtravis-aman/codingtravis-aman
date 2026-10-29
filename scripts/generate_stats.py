@@ -71,12 +71,15 @@ def main():
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0F2A"/><stop offset="1" stop-color="#111B3A"/></linearGradient>
 <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
 <clipPath id="bar"><rect x="40" y="185" width="920" height="14" rx="7"/></clipPath>
+<clipPath id="card"><rect width="1000" height="290" rx="22"/></clipPath>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".10"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
 </defs>
 <rect width="1000" height="290" rx="22" fill="url(#bg)"/>
 <rect x="1" y="1" width="998" height="288" rx="21" fill="none" stroke="#22D3EE" stroke-opacity=".3"/>''')
     mono = "font-family=\"'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace\""
     sans = "font-family=\"'Segoe UI','Helvetica Neue',Arial,sans-serif\""
     parts.append('<text x="40" y="40" %s font-size="14" letter-spacing="3" fill="#22D3EE">GITHUB // LIVE SNAPSHOT</text>' % mono)
+    parts.append('<circle cx="330" cy="35" r="4" fill="#34D399"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>')
     parts.append('<text x="960" y="40" text-anchor="end" %s font-size="14" fill="#A5F3FC">@%s</text>' % (mono, escape(USER)))
 
     for i, (val, label) in enumerate(tiles):
@@ -84,6 +87,7 @@ def main():
         parts.append('<g><rect x="%d" y="60" width="215" height="95" rx="14" fill="#111827" stroke="#1F2937"/>' % x)
         parts.append('<text x="%d" y="112" text-anchor="middle" %s font-size="38" font-weight="800" fill="url(#ac)">%s</text>' % (x + 107, sans, escape(val)))
         parts.append('<text x="%d" y="138" text-anchor="middle" %s font-size="12" letter-spacing="2" fill="#94A3B8">%s</text>' % (x + 107, sans, label))
+        parts.append('<rect x="%d" y="60" width="215" height="95" rx="14" fill="none" stroke="#22D3EE"><animate attributeName="stroke-opacity" values="0;.5;0" dur="3.2s" begin="%.1fs" repeatCount="indefinite"/></rect>' % (x, i * 0.4))
         parts.append('<animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="%.1fs" fill="freeze"/></g>' % (i * 0.15))
 
     parts.append('<text x="40" y="176" %s font-size="12" letter-spacing="2" fill="#94A3B8">TOP LANGUAGES (BY CODE)</text>' % sans)
@@ -108,6 +112,7 @@ def main():
 
     today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
     parts.append('<text x="960" y="274" text-anchor="end" %s font-size="11" fill="#6B7280">auto-updated daily by GitHub Actions · %s UTC</text>' % (mono, today))
+    parts.append('<g clip-path="url(#card)"><rect x="-200" y="0" width="200" height="290" fill="url(#sh)"><animate attributeName="x" values="-200;1000" dur="5s" repeatCount="indefinite"/></rect></g>')
     parts.append('</svg>')
 
     with open(OUT, "w", encoding="utf-8") as f:

@@ -3,7 +3,7 @@
 
 <img src="assets/header.svg" width="100%" alt="Aman Jha - Full-Stack Developer and Data Analyst" />
 
-<br/>
+<img src="assets/ticker.svg" width="100%" alt="Skills ticker" />
 
 <a href="https://amancreates.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-amancreates.netlify.app-6D28D9?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
 <a href="https://github.com/codingtravis-aman"><img src="https://img.shields.io/badge/GITHUB-codingtravis--aman-0B0F2A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub" /></a>
@@ -28,9 +28,7 @@ available  -> collaborations, open-source & freelance
 
 <div align="center">
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-### ⚡ Tech Arsenal
+<img src="assets/banner-tech.svg" width="100%" alt="Tech Arsenal" />
 
 **🎨 Frontend**<br/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -57,45 +55,33 @@ available  -> collaborations, open-source & freelance
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
-### 🚀 Featured Projects
+<img src="assets/banner-projects.svg" width="100%" alt="Featured Projects" />
 
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h4>🌐 Portfolio</h4>
-      <sub>Personal portfolio showcasing projects, skills and case studies in a fast, responsive UI.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind" />
-      <br/><br/>
-      <a href="https://amancreates.netlify.app/"><b>Live Demo</b></a> &nbsp;•&nbsp; <a href="https://github.com/codingtravis-aman/portfolio"><b>Repo</b></a>
+      <a href="https://amancreates.netlify.app/"><img src="assets/card-portfolio.svg" width="100%" alt="Portfolio project card" /></a>
+      <br/><sub>Personal portfolio showcasing projects, skills and case studies in a fast, responsive UI.</sub>
+      <br/><a href="https://amancreates.netlify.app/"><b>Live Demo</b></a> &nbsp;•&nbsp; <a href="https://github.com/codingtravis-aman/portfolio"><b>Repo</b></a>
     </td>
     <td align="center" width="33%">
-      <h4>🖐️ Niyati (AstroPalm)</h4>
-      <sub>Palm-scan mobile app with a guided camera viewfinder and a server-authoritative Supabase backend.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-      <img src="https://img.shields.io/badge/Supabase-0B0F2A?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
-      <br/><br/>
-      <a href="https://github.com/codingtravis-aman/niyati"><b>Repo</b></a>
+      <a href="https://github.com/codingtravis-aman/niyati"><img src="assets/card-niyati.svg" width="100%" alt="Niyati project card" /></a>
+      <br/><sub>Palm-scan mobile app with a guided camera viewfinder and a server-authoritative Supabase backend.</sub>
+      <br/><a href="https://github.com/codingtravis-aman/niyati"><b>Repo</b></a>
     </td>
     <td align="center" width="33%">
-      <h4>🛠️ BhartFix</h4>
-      <sub>One crisp sentence on what BhartFix does and the problem it solves.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
-      <img src="https://img.shields.io/badge/SQL-6D28D9?style=flat-square&logo=databricks&logoColor=white" alt="SQL" />
-      <br/><br/>
-      <a href="https://github.com/codingtravis-aman/bhartfix"><b>Repo</b></a>
+      <a href="https://github.com/codingtravis-aman/bhartfix"><img src="assets/card-bhartfix.svg" width="100%" alt="BhartFix project card" /></a>
+      <br/><sub>One crisp sentence on what BhartFix does and the problem it solves.</sub>
+      <br/><a href="https://github.com/codingtravis-aman/bhartfix"><b>Repo</b></a>
     </td>
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
-### 📈 Live GitHub Snapshot
+<img src="assets/banner-stats.svg" width="100%" alt="Live GitHub Snapshot" />
 
 <img src="assets/stats.svg" width="100%" alt="GitHub live stats and top languages" />
 
@@ -107,7 +93,7 @@ available  -> collaborations, open-source & freelance
 
 <img src="https://raw.githubusercontent.com/codingtravis-aman/codingtravis-aman/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
 <details>
 <summary><b>🧬 How this profile works (click to open)</b></summary>
@@ -115,16 +101,18 @@ available  -> collaborations, open-source & freelance
 
 Every animated element on this page is hand-written SVG hosted in this repo.<br/>
 The stats card is generated by a Python script run by **GitHub Actions** every day,<br/>
-and the contribution snake is rebuilt every 12 hours. No external widget servers for the core visuals.
+and the contribution snake is rebuilt every 12 hours.
 
 </details>
 
-### 🤝 Let's Connect
+<br/>
+
+<img src="assets/banner-connect.svg" width="100%" alt="Let's Connect" />
 
 <a href="https://amancreates.netlify.app/"><img src="https://img.shields.io/badge/Visit_My_Portfolio-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit portfolio" /></a>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<br/><br/>
 
-<sub>Designed &amp; engineered by <b>Aman Jha</b> · © 2026</sub>
+<img src="assets/footer.svg" width="100%" alt="Thanks for visiting" />
 
 </div>
