@@ -1,11 +1,7 @@
-<!-- ═══════════════ HERO HEADER ═══════════════ -->
+<!-- Designed & engineered by Aman Jha · github.com/codingtravis-aman -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0B0F2A,50:6D28D9,100:06B6D4&text=Aman%20Jha&fontSize=64&fontColor=E0F2FE&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%C2%B7%20Data%20Analyst&descSize=20&descColor=A5F3FC&descAlignY=60" alt="Aman Jha header" />
-
-<a href="https://github.com/codingtravis-aman">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=720&height=50&lines=Full-Stack+Engineer;Data+Analytics+%26+Automations;Building+Scalable+Apps;Cyber+Security+Enthusiast" alt="Typing animation" />
-</a>
+<img src="assets/header.svg" width="100%" alt="Aman Jha - Full-Stack Developer and Data Analyst" />
 
 <br/>
 
@@ -13,24 +9,26 @@
 <a href="https://github.com/codingtravis-aman"><img src="https://img.shields.io/badge/GITHUB-codingtravis--aman-0B0F2A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub" /></a>
 <img src="https://komarev.com/ghpvc/?username=codingtravis-aman&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="Profile views" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
 </div>
 
-<!-- ═══════════════ ABOUT ═══════════════ -->
+```bash
+$ whoami
+aman-jha  # full-stack developer & data analyst
+
+$ cat interests.txt
+cyber-security  open-source  automation
+
+$ ./status --now
+building   -> scalable web & mobile apps (Next.js · Flutter · Supabase)
+learning   -> web security, one lab at a time
+available  -> collaborations, open-source & freelance
+```
+
 <div align="center">
 
-### 👨‍💻 About Me
-
-I build **full-stack web & mobile products** and turn raw data into decisions.<br/>
-Obsessed with **clean architecture**, **automation**, **open source** and **cyber security**.
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
-
-</div>
-
-<!-- ═══════════════ TECH STACK ═══════════════ -->
-<div align="center">
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ### ⚡ Tech Arsenal
 
@@ -59,12 +57,7 @@ Obsessed with **clean architecture**, **automation**, **open source** and **cybe
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
-
-</div>
-
-<!-- ═══════════════ FEATURED PROJECTS ═══════════════ -->
-<div align="center">
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ### 🚀 Featured Projects
 
@@ -72,7 +65,7 @@ Obsessed with **clean architecture**, **automation**, **open source** and **cybe
   <tr>
     <td align="center" width="33%">
       <h4>🌐 Portfolio</h4>
-      <sub>My personal portfolio showcasing projects, skills and case studies in a fast, responsive UI.</sub>
+      <sub>Personal portfolio showcasing projects, skills and case studies in a fast, responsive UI.</sub>
       <br/><br/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
       <img src="https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind" />
@@ -100,47 +93,38 @@ Obsessed with **clean architecture**, **automation**, **open source** and **cybe
   </tr>
 </table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-</div>
+### 📈 Live GitHub Snapshot
 
-<!-- ═══════════════ GITHUB METRICS ═══════════════ -->
-<div align="center">
+<img src="assets/stats.svg" width="100%" alt="GitHub live stats and top languages" />
 
-### 📈 GitHub Analytics
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=codingtravis-aman&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=A5F3FC&dates=6B7280&stroke=1F2937" alt="GitHub streak" height="165" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=codingtravis-aman&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=E0F2FE&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codingtravis-aman&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=E0F2FE&langs_count=8&hide=html,css,jupyter%20notebook" alt="Top languages" height="165" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=codingtravis-aman&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12" alt="GitHub trophies" />
 
 <br/><br/>
 
 <img src="https://raw.githubusercontent.com/codingtravis-aman/codingtravis-aman/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="" />
 
-</div>
+<details>
+<summary><b>🧬 How this profile works (click to open)</b></summary>
+<br/>
 
-<!-- ═══════════════ INTERESTS & CONNECT ═══════════════ -->
-<div align="center">
+Every animated element on this page is hand-written SVG hosted in this repo.<br/>
+The stats card is generated by a Python script run by **GitHub Actions** every day,<br/>
+and the contribution snake is rebuilt every 12 hours. No external widget servers for the core visuals.
 
-### 🔐 Currently Exploring
-
-<img src="https://img.shields.io/badge/Cyber_Security-0B0F2A?style=for-the-badge&logo=hackthebox&logoColor=22D3EE" alt="Cyber Security" />
-<img src="https://img.shields.io/badge/Open_Source-6D28D9?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" />
-<img src="https://img.shields.io/badge/Automation-06B6D4?style=for-the-badge&logo=githubactions&logoColor=0B0F2A" alt="Automation" />
+</details>
 
 ### 🤝 Let's Connect
 
 <a href="https://amancreates.netlify.app/"><img src="https://img.shields.io/badge/Visit_My_Portfolio-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit portfolio" /></a>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:06B6D4,50:6D28D9,100:0B0F2A" alt="footer wave" />
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<sub>Designed &amp; engineered by <b>Aman Jha</b> · © 2026</sub>
 
 </div>
