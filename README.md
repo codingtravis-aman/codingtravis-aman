@@ -1,33 +1,146 @@
-name: Generate Snake Animation
+<!-- ═══════════════ HERO HEADER ═══════════════ -->
+<div align="center">
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0B0F2A,50:6D28D9,100:06B6D4&text=Aman%20Jha&fontSize=64&fontColor=E0F2FE&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%C2%B7%20Data%20Analyst&descSize=20&descColor=A5F3FC&descAlignY=60" alt="Aman Jha header" />
 
-permissions:
-  contents: write
+<a href="https://github.com/codingtravis-aman">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=720&height=50&lines=Full-Stack+Engineer;Data+Analytics+%26+Automations;Building+Scalable+Apps;Cyber+Security+Enthusiast" alt="Typing animation" />
+</a>
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=22d3ee
+<br/>
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<a href="https://amancreates.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-amancreates.netlify.app-6D28D9?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+<a href="https://github.com/codingtravis-aman"><img src="https://img.shields.io/badge/GITHUB-codingtravis--aman-0B0F2A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub" /></a>
+<img src="https://komarev.com/ghpvc/?username=codingtravis-aman&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" alt="Profile views" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+
+</div>
+
+<!-- ═══════════════ ABOUT ═══════════════ -->
+<div align="center">
+
+### 👨‍💻 About Me
+
+I build **full-stack web & mobile products** and turn raw data into decisions.<br/>
+Obsessed with **clean architecture**, **automation**, **open source** and **cyber security**.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+
+</div>
+
+<!-- ═══════════════ TECH STACK ═══════════════ -->
+<div align="center">
+
+### ⚡ Tech Arsenal
+
+**🎨 Frontend**<br/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+
+**🗄️ Backend & Database**<br/>
+<img src="https://img.shields.io/badge/Supabase-0B0F2A?style=for-the-badge&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-6D28D9?style=for-the-badge&logo=databricks&logoColor=white" alt="SQL" />
+
+**📱 Mobile & DevOps**<br/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=0B0F2A" alt="Netlify" />
+
+**📊 Tools & Analytics**<br/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+
+</div>
+
+<!-- ═══════════════ FEATURED PROJECTS ═══════════════ -->
+<div align="center">
+
+### 🚀 Featured Projects
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h4>🌐 Portfolio</h4>
+      <sub>My personal portfolio showcasing projects, skills and case studies in a fast, responsive UI.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind" />
+      <br/><br/>
+      <a href="https://amancreates.netlify.app/"><b>Live Demo</b></a> &nbsp;•&nbsp; <a href="https://github.com/codingtravis-aman/portfolio"><b>Repo</b></a>
+    </td>
+    <td align="center" width="33%">
+      <h4>🖐️ Niyati (AstroPalm)</h4>
+      <sub>Palm-scan mobile app with a guided camera viewfinder and a server-authoritative Supabase backend.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+      <img src="https://img.shields.io/badge/Supabase-0B0F2A?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+      <br/><br/>
+      <a href="https://github.com/codingtravis-aman/niyati"><b>Repo</b></a>
+    </td>
+    <td align="center" width="33%">
+      <h4>🛠️ BhartFix</h4>
+      <sub>One crisp sentence on what BhartFix does and the problem it solves.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL-6D28D9?style=flat-square&logo=databricks&logoColor=white" alt="SQL" />
+      <br/><br/>
+      <a href="https://github.com/codingtravis-aman/bhartfix"><b>Repo</b></a>
+    </td>
+  </tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+
+</div>
+
+<!-- ═══════════════ GITHUB METRICS ═══════════════ -->
+<div align="center">
+
+### 📈 GitHub Analytics
+
+<img src="https://streak-stats.demolab.com?user=codingtravis-aman&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=A5F3FC&dates=6B7280&stroke=1F2937" alt="GitHub streak" height="165" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=codingtravis-aman&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=E0F2FE&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codingtravis-aman&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=E0F2FE&langs_count=8&hide=html,css,jupyter%20notebook" alt="Top languages" height="165" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=codingtravis-aman&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=12&margin-h=12" alt="GitHub trophies" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/codingtravis-aman/codingtravis-aman/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F2A,50:6D28D9,100:06B6D4&height=3" alt="divider" />
+
+</div>
+
+<!-- ═══════════════ INTERESTS & CONNECT ═══════════════ -->
+<div align="center">
+
+### 🔐 Currently Exploring
+
+<img src="https://img.shields.io/badge/Cyber_Security-0B0F2A?style=for-the-badge&logo=hackthebox&logoColor=22D3EE" alt="Cyber Security" />
+<img src="https://img.shields.io/badge/Open_Source-6D28D9?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" />
+<img src="https://img.shields.io/badge/Automation-06B6D4?style=for-the-badge&logo=githubactions&logoColor=0B0F2A" alt="Automation" />
+
+### 🤝 Let's Connect
+
+<a href="https://amancreates.netlify.app/"><img src="https://img.shields.io/badge/Visit_My_Portfolio-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit portfolio" /></a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:06B6D4,50:6D28D9,100:0B0F2A" alt="footer wave" />
+
+</div>
