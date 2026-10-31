@@ -55,6 +55,6 @@
 <text x="608" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">Python <tspan fill="#94A3B8">1.7%</tspan></text>
 <circle cx="781" cy="235" r="5" fill="#336791"/>
 <text x="792" y="240" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#E0F2FE">PLpgSQL <tspan fill="#94A3B8">0.4%</tspan></text>
-<text x="960" y="274" text-anchor="end" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="11" fill="#6B7280">auto-updated daily by GitHub Actions · 2026-10-30 UTC</text>
+<text x="960" y="274" text-anchor="end" font-family="'Fira Code','SFMono-Regular',Consolas,'Courier New',monospace" font-size="11" fill="#6B7280">auto-updated daily by GitHub Actions · 2026-10-31 UTC</text>
 <g clip-path="url(#card)"><rect x="-200" y="0" width="200" height="290" fill="url(#sh)"><animate attributeName="x" values="-200;1000" dur="5s" repeatCount="indefinite"/></rect></g>
 </svg>
